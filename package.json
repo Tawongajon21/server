@@ -1,0 +1,31 @@
+{
+  "name": "sales-project-beta",
+
+
+  "version": "1.0.0",
+  "description": "Sales Project That Record Sales",
+  "main": "app.js",
+  "scripts": {
+    "start": "node  app.js",
+    "dev": "nodemon app.js"
+  }, 
+  "keywords": [
+    "sales"
+  ],
+  "author": "jongwe",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0",
+    "paynow": "^1.0.9",
+    "socket.io": "^4.4.1"
+  }
+}
